@@ -1,6 +1,5 @@
-package io.floci.gcp.core.common.kubernetes;
+package io.floci.gcp.core.common.kubernetes.cluster;
 
-import io.floci.gcp.core.common.kubernetes.cluster.K3dDriver;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

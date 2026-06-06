@@ -1,9 +1,7 @@
-package io.floci.gcp.core.common.kubernetes;
+package io.floci.gcp.core.common.kubernetes.cluster;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
-
-import io.floci.gcp.core.common.kubernetes.cluster.K3dDriver;
 
 @ApplicationScoped
 public class KubernetesCluster {

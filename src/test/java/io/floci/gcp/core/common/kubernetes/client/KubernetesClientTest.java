@@ -1,9 +1,7 @@
-package io.floci.gcp.core.common.kubernetes;
+package io.floci.gcp.core.common.kubernetes.client;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
-import io.floci.gcp.core.common.kubernetes.client.KubernetesClient;
-import io.floci.gcp.core.common.kubernetes.client.KubernetesClientFactory;
 import io.floci.gcp.core.common.kubernetes.cluster.K3dDriver;
 import org.junit.jupiter.api.Test;
 
